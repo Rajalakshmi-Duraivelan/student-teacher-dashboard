@@ -21,6 +21,7 @@ function Topbar() {
       <ul className="navbar-nav ml-auto">
         <li className="nav-item dropdown no-arrow d-sm-none">
           <a
+          href="#"
             className="nav-link dropdown-toggle"
             id="searchDropdown"
             role="button"

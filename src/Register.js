@@ -1,10 +1,10 @@
 import axios from "axios";
 import { useFormik } from "formik";
 import React from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 function Register() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   let formik = useFormik({
     initialValues: {
       name: "",
@@ -38,9 +38,9 @@ function Register() {
           "https://63463cc5745bd0dbd3791eaf.mockapi.io/register",
           values
         );
-        {
-          navigate("/");
-        }
+        // {
+        //   navigate("/");
+        // }
         alert("Successfully Registerd & wait for Admin Confirmation");
       } catch (error) {
         console.log(error);
